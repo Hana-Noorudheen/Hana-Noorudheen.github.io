@@ -1,3 +1,5 @@
+
+
 *,
 *::after,
 *::before {
@@ -114,7 +116,7 @@ margin-top: 7%;
 {
 
 height: 350px;
-width:50%;
+width:60%;
 background-color: #fff;
 margin: auto;
 margin-top: 6%;
@@ -317,7 +319,15 @@ footer {
   text-align: center;
 }
 
-
+@media only screen and (max-width: 1920px)
+{
+ .circleh
+ {
+  margin-top:100%;
+  margin-right: 0%;
+ }
+  
+}
 
 
 @media only screen and (max-width: 907px)
